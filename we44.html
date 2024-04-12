@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Now</title>
+
+<style>
+
+body {
+
+font-family: Arial, sans-serif;
+
+background-color: #f4f4f4;
+
+margin: 0;
+
+padding: 0;
+
+}
+
+header {
+
+background-color: #333;color: #fff;
+
+padding: 20px;
+
+text-align: center;
+
+}
+
+nav ul {
+
+list-style: none;
+
+}
+
+nav ul li {
+
+display: inline;
+
+margin-right: 20px;
+
+}
+
+nav ul li a {
+
+color: #fff;
+
+text-decoration: none;
+
+}
+
+.main-content {
+
+max-width: 800px;
+
+margin: 20px auto;
+
+padding: 0 20px;
+
+background-color: #fff;
+
+border-radius: 5px;
+
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+padding: 20px;
+
+}
+
+h2 {
+
+margin-bottom: 20px;
+
+text-align: center;
+
+}
+
+.form-group {
+
+margin-bottom: 20px;
+
+}
+
+label {
+
+display: block;
+
+margin-bottom: 5px;
+
+}
+
+input[type="text"],
+
+input[type="tel"],textarea {
+
+width: 100%;
+
+padding: 10px;
+
+border: 1px solid #ccc;
+
+border-radius: 5px;
+
+font-size: 16px;
+
+}
+
+input[type="submit"] {
+
+background-color: #333;
+
+color: #fff;
+
+border: none;
+
+padding: 10px 20px;
+
+font-size: 16px;
+
+cursor: pointer;
+
+border-radius: 5px;
+
+}
+
+input[type="submit"]:hover {
+
+background-color: #555;
+
+}
+
+footer {
+
+background-color: #333;
+
+color: #fff;
+
+text-align: center;
+
+padding: 10px;
+
+position: fixed;
+
+bottom: 0;
+
+width: 100%;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Book your tickets</h1>
+
+<nav>
+
+<ul>
+
+<li><a href="we41.html">Home</a></li>
+
+<li><a href="we42.html">Destinations</a></li>
+
+<li><a href="we43.html">Packages</a></li>
+
+<li><a href="we44.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header><div class="main-content">
+
+<h2>Book Now</h2>
+
+<form action="submit_order.php" method="post">
+
+<div class="form-group">
+
+<label for="name">Name:</label>
+
+<input type="text" id="name" name="name" required>
+
+</div>
+
+<div class="form-group">
+
+<label for="phone">Phone Number:</label>
+
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+<small>Format: 10 digits</small>
+
+</div>
+
+<div class="form-group">
+
+<label for="Boarding">Boarding from:</label>
+
+<textarea id="address" name="address" rows="1" required></textarea>
+
+</div>
+
+<div class="form-group">
+
+<label for="Boarding">Boarding To:</label>
+
+<textarea id="address" name="address" rows="1" required></textarea>
+
+</div>
+
+<div class="form-group">
+
+    <label for="Accomodation">Accomodation:</label>
+   
+    <ul>
+        <li><input type="checkbox" id="Yes" name="Yes"><label for="Yes">Yes</label></li>
+        <li><input type="checkbox" id="No" name="No"><label for="No">No</label></li>
+        
+    </ul>
+    
+</form>
+
+
+<div class="form-group">
+
+<input type="submit" value="submit Now">
+
+<center><p>HAVE A SAFE JOURNEY</p></center>
+
+</div>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
